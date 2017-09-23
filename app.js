@@ -10,6 +10,6 @@ app.use(require('./middlaware/middlaware.js'));
 
 require('./routes/usuarioRoute.js')(app);
 
-app.listen(80, () =>{
+app.listen(3000, () =>{
   console.log('Localhost rodando na porta 3000');
 });
