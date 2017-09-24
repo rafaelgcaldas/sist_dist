@@ -7,9 +7,9 @@ module.exports = {
 }
 
 let connection = mysql.createConnection({
-    host: 'sistemas-distribuidos.cen1wavirsc8.us-east-2.rds.amazonaws.com',
+    host: 'localhost',
     user: 'root',
-    password: 'Sist_Dist',
+    password: '',
     database: 'sistemas_distribuidos'
 });
 
